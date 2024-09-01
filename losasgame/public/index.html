@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Loader</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: relative;">
+        <canvas id="canvas" width="1700" height="800" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="movingcanvas" width="1700" height="800" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+    </div>
+</body>
+
+
+<audio id="a#5" src="Harp Notes/aH5.wav" preload="auto"></audio>
+<audio id="a5" src="Harp Notes/a5.wav" preload="auto"></audio>
+<audio id="b5" src="Harp Notes/b5.wav" preload="auto"></audio>
+<audio id="c#5" src="Harp Notes/cH5.wav" preload="auto"></audio>
+<audio id="c5" src="Harp Notes/c5.wav" preload="auto"></audio>
+<audio id="c6" src="Harp Notes/c6.wav" preload="auto"></audio>
+<audio id="d#5" src="Harp Notes/dH5.wav" preload="auto"></audio>
+<audio id="d5" src="Harp Notes/d5.wav" preload="auto"></audio>
+<audio id="e5" src="Harp Notes/e5.wav" preload="auto"></audio>
+<audio id="f#5" src="Harp Notes/fH5.wav" preload="auto"></audio>
+<audio id="f5" src="Harp Notes/f5.wav" preload="auto"></audio>
+<audio id="g#5" src="Harp Notes/gH5.wav" preload="auto"></audio>
+<audio id="g5" src="Harp Notes/g5.wav" preload="auto"></audio>
+
+
+<script src="node_modules/p5/lib/p5.js"></script>
+<script src="sketch/sketch.js"></script>
+
+<script>
+
+deltaTime=0;
+
+
+
+
+
+
+// Load and draw images
+
+
+
+
+
+
+
+//DRAWING STRINGS INDIVIDUALLY, MORE SENSITIVE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// EXAMPLE!
+/*
+var sprite = new Sprite({
+    spriteSheetURL: 'https://codehs.com/uploads/72e9b6f60ac412f32a2fd3a955990c3b',
+    nRows: 2,
+    nCols: 3,
+    spriteWidth: 13,
+    spriteHeight: 14,
+    borderWidth: 1,
+    spacingWidth: 1,
+    x: 10
+    y: 10
+});
+sprite.onReady(function() {
+    add(sprite);
+    sprite.addAnimation({
+        name: 'walkright',
+        frameIndices: [0,1,2,1]
+    });
+    sprite.addAnimation({
+        name: 'walkleft',
+        frameIndices: [3,4,5,4]
+    });
+    
+    startLoop();
+});
+
+function startLoop() {
+    var velocity = 1;
+    sprite.animate('walkright');
+    
+    setInterval(function() {
+        if (sprite.activeFrame.x +
+            sprite.activeFrame.width >= getWidth()
+        ) {
+            velocity = -1;
+            sprite.animate('walkleft', true);
+        }
+        if (sprite.activeFrame.x <= 0) {
+            velocity = 1;
+            sprite.animate('walkright', true);
+        }
+        sprite.move(velocity, 0);
+    }, 10);
+}
+    */
+</script>
+</html>
